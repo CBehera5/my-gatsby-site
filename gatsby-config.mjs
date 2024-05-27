@@ -5,8 +5,8 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const config = {
   siteMetadata: {
-    title: `New Relic Assignment`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `New Relic Assignment`
+
   },
   plugins: [
     "gatsby-plugin-image",
