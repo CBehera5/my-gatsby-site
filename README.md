@@ -7,6 +7,10 @@
   Chinmay's Assignment
 </h1>
 
+##  🚀 To view the assignment on your browser, [click here](https://elaborate-alfajores-7e1115.netlify.app/).
+
+**Or**
+
 ## 🚀 To view the assignment locally on your machine, do the following:
 
 1. **Fork or clone the repository to your local machine.**
