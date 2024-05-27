@@ -9,7 +9,7 @@ const IndexPage = () => {
 
       <ul>
         <li>
-          <b>Understanding Customer Issue:</b> The customer reported issues with renaming a PHP application. I identified the need for clear installation documentation to assist customers facing similar challenges. To empathize with the customer's situation, I installed a basic Node.js application.
+          <b>Understanding Customer Issue:</b> A customer reported an issue when the user could not find his application in New Relic dashboard and could not monitor the performance of the application. I identified the need for clear installation documentation to assist customers facing similar challenges. To empathize with the customer's situation, I installed a Node.js APM agent and added it to New Relic dashboard.
         </li>
 
         <li>
