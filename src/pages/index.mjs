@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 
 const IndexPage = () => {
   return (
-    <main >
+    <main>
       <h1 >
         Congratulations
         <br />
