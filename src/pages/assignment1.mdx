@@ -1,13 +1,64 @@
 ---
-title: "New"
+title: "Installing New Relic PHP agent to your application"
 date: "2021-07-23"
 slug: "my-first-post"
 ---
-# Test Content
-This is my first blog post! Isn't it *great*?
+# Installing New Relic PHP agent to your application
 
-Some of my **favorite** things are:
+New Relic provides extensive monitoring capabilities for PHP applications, 
+enabling you to gain detailed insights of your application's performance and health.
+The following procedure guides you to install New Relic agent for monitoring your PHP application.
 
-* Petting dogs
-* Singing dancing
-* Eating potato-based food
+### Pre-requisites
+
+* Ensure that you have a valid New Relic account.
+* Ensure that your system meet the PHP agent [compatibilty and requirements](https://docs.newrelic.com/docs/apm/agents/php-agent/getting-started/php-agent-compatibility-requirements/). 
+* Basic understanding of server administration and configuration.
+
+### Procedure
+
+1. Navigate to the New Relic release notes to download the latest version of the New Relic agent for your environment.
+    For more information related to latest New Relic lates versions, [click here](https://docs.newrelic.com/docs/release-notes/agent-release-notes/php-release-notes/).
+
+
+2. After the agent is downloaded, extract **linux.tar.gz** file.
+
+3. Run the following installation command on your terminal.
+
+             `cheesemaker install xyz`   
+
+> **Note:** Replace xyz with the name of the extracted agent file.
+
+4. Do the following to change the default configure application name.
+
+    i. Open the newrelic.ini configuration file located in the New Relic agent directory.
+
+    ii. Locate the newrelic.appname setting and change the default application name to your desired name (e.g., Asiago).
+
+    iii. Save the configuration file.
+
+ > **Note:** It is advisable to rename your default application or you might encounter trouble in fiding your agent.
+
+5. To apply the changes, restart your web server and start the New Relic agent.
+
+
+
+## Additional Resources
+
+### Monitor your application
+
+* New Relic provides comprehensive monitoring for PHP applications, covering everything from transaction performance and database queries to server health and user experience. For more information, [click here](https://docs.newrelic.com/docs/apm/agents/php-agent/getting-started/introduction-new-relic-php/).
+
+
+
+### Troubleshooting and support
+
+* If you encounter any issues during installation or configuration, refer to the [New Relic PHP agent troubleshooting documentations](https://docs.newrelic.com/docs/apm/agents/php-agent/troubleshooting/no-data-appears-php/).
+
+* For further assistance, contact [New Relic support](https://support.newrelic.com).
+
+
+### Adding team members to monitor
+
+<! Need information>
+
