@@ -26,6 +26,7 @@
     cd my-gatsby-site/
     npm run develop
     ```
+    > **Info:**You can view the assignment markdown and index.js files under **/src/pages** path.
 
 3.  **You can view the assignment in the local host of your browser.**
 
