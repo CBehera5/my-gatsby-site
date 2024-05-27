@@ -9,16 +9,18 @@
 
 ## 🚀 To view the assignment locally on your machine, do the following:
 
-1.  **Install necessary Node modules.**
+1. **Fork or clone the repository to your local machine.**
+
+2.  **Install necessary Node modules.**
 
     Run the following command to install the necessary node packages.
 
     ``` shell
-    # create a new Gatsby site using the minimal starter
+    # Installs required dependent node packages
     npm init 
     ```
 
-2.  **To build the project, run the following command.**
+3.  **To build the project, run the following command.**
 
     Navigate into your new site’s directory and start it up.
 
@@ -28,6 +30,6 @@
     ```
     > **Info:**You can view the assignment markdown and index.js files under **/src/pages** path.
 
-3.  **You can view the assignment in the local host of your browser.**
+4.  **You can view the assignment in the local host of your browser.**
 
     Your site is now running at http://localhost:8000!
