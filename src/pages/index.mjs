@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 const IndexPage = () => {
   return (
     <main>
+      <div>
       <h2>Assignment Approach</h2>
 
       <ul>
@@ -28,11 +29,33 @@ const IndexPage = () => {
         </li>
       </ul>
 
-      <p>Click the following link to view the installation procedure:</p>
+      </div>
+
+
+      <h2>Assignment</h2>
       
       <div>
         <Link to="/assignment1/">Installation procedure for the New Relic PHP agent.</Link>
       </div>
+
+
+      <div>
+  <h2>Portfolio Samples</h2>
+
+  <ol>
+    <li>
+      <b>Nutanix Calm Documentation:</b> 
+      <p>Being an individual contributor, I designed and developed comprehensive documentation for Nutanix Calm, focusing on the integration of automation and orchestration tools. This included user guides, API references, and step-by-step tutorials to help users deploy and manage applications efficiently.</p>
+      <a href="https://portal.nutanix.com/page/documents/details?targetId=Nutanix-Calm-Admin-Operations-Guide-v3_6_0:Introduction" target="_blank">View Documentation</a>
+    </li>
+    <li>
+      <b>Rapyuta Robotics:</b> 
+      <p>I was the only technical writer and I successfully created detailed technical content for Rapyuta Robotics, covering various aspects of their robotics platform. This involved writing clear and concise manuals, quick-start guides, and troubleshooting documentation to assist users in setting up and operating robotic systems.</p>
+      <a href="https://userdocs.rapyuta.io/" target="_blank">View Documentation</a>
+    </li>
+  </ol>
+</div>
+
     </main>
   )
 }
