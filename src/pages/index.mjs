@@ -20,7 +20,7 @@ const IndexPage = () => {
         </li>
 
         <li>
-          <b>Adding Relevant New Relic Documentation Links:</b> I added hyperlinks to New Relic's official documentation for configuration and customization to ensure accurate monitoring.
+          <b>Adding Existing New Relic Documentation Links:</b> I added hyperlinks to New Relic's official documentation for configuration and customization to ensure accurate monitoring.
         </li>
 
         <li>
